@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:share/share.dart';
 
-/**
-* Renvoi du menu de partage d'url
-*/
+///
+/// Renvoi du menu de partage d'url
+/// 
 PopupMenuItem getShareMenuItem(String url){
   return PopupMenuItem(
     value: url,
